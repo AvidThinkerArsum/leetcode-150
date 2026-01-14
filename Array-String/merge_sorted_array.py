@@ -1,5 +1,5 @@
 """
-Problem: Two Sum
+Problem: Merge Sorted Array
 LeetCode: https://leetcode.com/problems/merge-sorted-array/
 Difficulty: Easy
 Approach: Utilizing three pointers
