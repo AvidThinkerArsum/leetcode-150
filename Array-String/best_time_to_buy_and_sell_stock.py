@@ -6,6 +6,20 @@ Approach:
 Time:
 Space:
 
+BEST SOLUTION:
+
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        min_price = float('inf')
+        max_profit = 0
+
+        for price in prices:
+            if price < min_price:
+                min_price = price
+            else:
+                max_profit = max(max_profit, price - min_price)
+
+        return max_profit
 
 
 EVEN THOUGH THE FOLLOWING SOLUTION IS CORRECT. THE TIMELIMIT EXCEEDED:
