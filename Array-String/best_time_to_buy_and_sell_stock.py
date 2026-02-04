@@ -2,9 +2,9 @@
 Problem: Best Time To Buy And Sell Stock
 LeetCode: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 Difficulty: Easy
-Approach:
-Time:
-Space:
+Approach: The inital approach given at the bottom is to check all combinations but it runs out of time as it is O(n^2). The better approach is to have a min_price and a max_profit to iterate through the list.
+Time: O(n)
+Space: O(1)
 
 BEST SOLUTION:
 
