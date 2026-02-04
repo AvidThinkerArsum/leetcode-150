@@ -6,6 +6,10 @@ Approach:
 Time:
 Space:
 
+
+
+EVEN THOUGH THE FOLLOWING SOLUTION IS CORRECT. THE TIMELIMIT EXCEEDED:
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         profit = 0
