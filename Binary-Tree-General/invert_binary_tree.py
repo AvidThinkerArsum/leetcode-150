@@ -4,7 +4,7 @@ LeetCode: https://leetcode.com/problems/invert-binary-tree/
 Difficulty: Easy
 Approach: Use recursion
 Time: O(n) - each node is visited once
-Space: O(h)
+Space: O(h) - based on the recursion stack
 """
 
 class Solution:
