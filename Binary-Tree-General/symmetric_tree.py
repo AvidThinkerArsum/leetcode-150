@@ -2,7 +2,7 @@
 Problem: Symmetric Tree
 LeetCode: https://leetcode.com/problems/symmetric-tree/
 Difficulty: Easy
-Approach: 
+Approach: three case scenario.
 Time: O(n)
 Space: O(h)
 """
