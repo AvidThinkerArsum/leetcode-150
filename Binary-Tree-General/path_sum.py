@@ -2,9 +2,9 @@
 Problem: Path Sum
 LeetCode: https://leetcode.com/problems/path-sum/
 Difficulty: Easy
-Approach:
-Time:
-Space:
+Approach: We are considering root to leaf. A leaf has no kids. That is the edge case. If there are kids then we can either have 2 or 1 kids. In the case of 1 kid it means we must be able to handle the null case and so that becomes our first case. The third part is the recursive step.
+Time: O(n)
+Space: O(h)
 """
 
 class Solution:
