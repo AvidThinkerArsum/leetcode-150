@@ -3,8 +3,8 @@ Problem: Count Complete Tree Nodes
 LeetCode: https://leetcode.com/problems/count-complete-tree-nodes/
 Difficulty: Easy
 Approach: pretty straightforward
-Time:
-Space:
+Time: O(n)
+Space: O(logn) - this is because we not it is complete
 """
 
 class Solution:
