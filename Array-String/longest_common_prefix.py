@@ -2,9 +2,9 @@
 Problem: Longest Common Prefix
 LeetCode: https://leetcode.com/problems/longest-common-prefix/
 Difficulty: Easy
-Approach:
-Time: 
-Space: 
+Approach: This question is just looking to see what the longest common substring is given that it starts from the first index and that it is consecutive. 
+Time: O(nm) - where n is the total number of elements and m is the length of the first element.
+Space: O(1) - we don't create anything.
 """
 
 class Solution:
