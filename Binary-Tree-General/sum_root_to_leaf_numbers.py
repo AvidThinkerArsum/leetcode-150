@@ -1,9 +1,9 @@
 Problem: Sum Root to Leaf Numbers
 LeetCode: https://leetcode.com/problems/sum-root-to-leaf-numbers/
 Difficulty: Medium
-Approach:
-Time:
-Space:
+Approach: figure out how to add numbers without concatenating. use helper function. there were edge cases involved. be careful not to think of empty nodes as a path as they are not a path.
+Time: O(N) - visit all nodes
+Space: O(H) for recursion stack
 """
 
 class Solution:
